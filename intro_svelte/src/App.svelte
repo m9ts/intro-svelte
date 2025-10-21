@@ -33,9 +33,9 @@
   <button onclick={adicionarContador}>Adicionar</button>
   <button onclick={subtrairContador}>Subtrair</button>
 
-  <Botao texto="Adicionar" cor ="blue" />
-  <Botao texto="Adicionar2" cor ="grey" />
-  <Botao texto="Adicionar3" cor ="green" />
+  <Botao texto="Adicionar" cor="blue" />
+  <Botao texto="Adicionar2" cor="grey" />
+  <Botao texto="Adicionar3" cor="green" />
 </main>
 
 <!-- Interpolação de dados -->
