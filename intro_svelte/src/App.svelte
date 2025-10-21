@@ -6,8 +6,14 @@
 
   let contador = $state(0);
   let contadorSubtrai = $state(50);
-  let mensagem = $derived(contador < 5 ? "Menor que 5" : contador = 0);
+  let mensagem = $derived(contador < 5 ? "Menor que 5" : "Menor que 10");
   let color = "blue"
+  
+  $effect(function(){
+    if(contador == 10){
+      contador = 0;
+    }
+  })
 
   function adicionarContador(){
     contador++;
